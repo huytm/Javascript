@@ -17,4 +17,4 @@ Note
 
 
 
-[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution1)
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution01)
