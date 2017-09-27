@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Example</title>
+    </head>
+    <body>
+      <div>
+      1st Number : <input type ="text" id = "textBox1" value = "" />
+      <br>
+      2nd Number: <input type ="text" id = "textBox2" value = "" />
+      <br>
+      <input type ="button" onClick="Multiply()" id = "buttonMutiply" value = "Multiply">
+      <input type = "button" onClick="Divide()" id = "buttonDivide" value = "Divide">  
+      </div>
+      <p id="result"></p>
+        <script language="javascript">
+          function Multiply(){
+          if (!document.getElementById('textBox1').value || !document.getElementById('textBox2').value) {
+          alert('Nhập số đi má');
+          }
+          else
+          document.getElementById("result").innerHTML = 'Resule of Multiply is ' + parseInt(document.getElementById('textBox1').value) * parseInt(document.getElementById('textBox2').value);
+          }
+        
+          function Divide(){
+          if (!document.getElementById('textBox1').value || !document.getElementById('textBox2').value) {
+          alert('Nhập số đi má');
+          }
+          else 
+          document.getElementById("result").innerHTML = 'Resule of Devide is ' + parseInt(document.getElementById("textBox1").value) / parseInt(document.getElementById("textBox2").value);
+          }
+          
+        </script>      
+    </body>
+</html>
