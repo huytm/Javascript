@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get URL of page</title>
+    </head>
+    <body>
+		<script language="javascript">
+          document.write(document.URL);
+        </script>      
+    </body>
+</html>
