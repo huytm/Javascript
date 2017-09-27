@@ -8,4 +8,4 @@ Note
 - Một ngày = 1000*60*60*24 milliseconds
 - Cách tốt nhất để tìm ngày còn lại là lấy ngày Giáng sinh đổi ra milliseconds trừ đi ngày hiện tại đổi ra miliseconds sau đó chia kết quả cho miliseconds của một ngày và làm tròn giá trị này. 
 
-[Solution](https://github.com/huytm/Javascript/new/master/Solution/solution07)
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution07)
