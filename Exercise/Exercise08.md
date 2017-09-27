@@ -7,4 +7,4 @@ Note:
 - !document.getElementById('textBox1').value --> check null
 - document.getElementById("result").innerHTML --> insert dữ liệu vào document có id là `result`
 
-[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution8)
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution08)
