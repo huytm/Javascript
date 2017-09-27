@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset=utf-8 />
+	  <title>Find Leap Year</title>
+	</head>
+  <body>
+    <script>
+      year = window.prompt("Input a Year : ");
+      if (parseInt(year) % 100 == 0 && parseInt(year) % 400==0 || parseInt(year)% 4 === 0) 
+      alert(year + ' Là năm nhuận');
+      else 
+      alert(year + ' Không là năm nhuận');
+    </script>
+
+  </body>
+</html>
