@@ -17,4 +17,4 @@ Note
 - Nếu số tháng hoặc số ngày < 10 thì thêm số 0 vào đằng trước giá trị `dd`, `mm`
 
 
-[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution2)
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution02)
