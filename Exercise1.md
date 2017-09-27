@@ -12,7 +12,16 @@ Note
   <li>`getSeconds()` lấy giây </li>
 </ul>  
 
-
+- Gạch đầu dòng thứ nhất
+  <ul>
+  <li>Thụt với đầu dòng 1</li>
+  <li>Thụt với đầu dòng 1</li>
+  </ul>
+- Gạch đầu dòng thứ hai
+  <ul>
+  <li>Thụt với đầu dòng 2</li>
+  <li>Thụt với đầu dòng 2</li>
+  </ul>
 
 
 [Solution](https://github.com/huytm/Javascript/blob/master/solution1.html)
