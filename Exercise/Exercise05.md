@@ -6,4 +6,4 @@ Note:
 - sử dụng hàm getDay(), nếu trả về giá trị bằng 0 thì là ngày chủ nhật
 - In ra kết quả
 
-[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution5)
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution05)
