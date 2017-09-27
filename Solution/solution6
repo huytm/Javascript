@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>A Program to guess number.</title>
+	</head>
+	<body>
+		<script>
+			        randomNum = Math.ceil(Math.random()*10);
+              guessNum = prompt('Nhập số để đoán');
+              if (randomNum == guessNum )
+              document.write('Bingo');
+              else
+              document.write('Failed, the Number is ' + randomNum);
+		</script>
+	</body>
+</html>
