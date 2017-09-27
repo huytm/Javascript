@@ -4,4 +4,4 @@ Công thức Hê-rông [nguồn](https://vi.wikipedia.org/wiki/C%C3%B4ng_th%E1%B
 
 <img src="https://image.prntscr.com/image/1Wo3nhKUSRuepKHWEy_D9Q.png">
 
-[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution3)
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution03)
