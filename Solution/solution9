@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change template between Celsius and Fahrenheit</title>
+    </head>
+    <body>
+		<h3>Chọn chương trình chuyển</h3>
+      <div>
+      <input type ="button" onClick="ctoF()" id = "buttonMutiply" value = "Conver Celsius to Fahrenheit">
+      <input type = "button" onClick="ftoC()" id = "buttonDivide" value = "Conver Fahrenheit to Celsius">  
+      </div>
+      <p id="result"></p>
+        <script language="javascript">
+          function ctoF(){
+			t = parseFloat(prompt('Nhập độ C'));
+			var f = t * 1.8 + 32;
+			document.getElementById("result").innerHTML = f + " F";
+          }
+                 
+          function ftoC(){
+			t = parseFloat(prompt('Nhập độ F'));
+			var f = (t - 32)/1.8 ;
+			document.getElementById("result").innerHTML = f + " C";
+          }
+          
+        </script>      
+    </body>
+</html>
