@@ -4,4 +4,4 @@ Note
 - Hàm *Math.ceil()* là hàm làm tròn
 - Hàm *Math.random()* là hàm sinh ra một số ngẫu nhiên từ 0-1
 
-[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution6)
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution06)
