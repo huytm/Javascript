@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset=utf-8 />
+	  <title>Example 12</title>
+      <input type = "button" onClick="checkNumber()" value = "Kiểm tra">
+	</head>
+  <body>
+    <script>
+      n = prompt('Nhập một số bất kỳ');
+      
+      function checkNumber() {
+      	if (n <= 10)
+        	document.write('Số nhập vào không lớn hơn 10');
+        else
+        	document.write('Kết quả là ' + (n - 10)*2 );
+      }
+      
+    </script>
+
+  </body>
+</html>
