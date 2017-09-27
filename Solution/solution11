@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset=utf-8 />
+	  <title>Get extension of file</title>
+	</head>
+  <body>
+    <script>
+      filename = prompt('Nhập tên file')
+      document.write(filename.split('.').pop());
+    </script>
+
+  </body>
+</html>
