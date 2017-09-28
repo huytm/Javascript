@@ -190,6 +190,8 @@ Note
 
 - Function `isNaN()` kiểm tra một giá trị có phải số không? Ví dụ `isNaN(19) = false`, `isNaN('huytm') = true`
 
+[Tham khảo](https://www.w3schools.com/jsref/jsref_isnan.asp)
+
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution14.html)
 
 
