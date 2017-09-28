@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 13</title>
+    </head>
+    <body>
+   		<table> 
+      		<tr> 
+            	<td> Nhập số thứ nhất:</td>		
+                <td><input type = "number" id = "text-box1" value = "" onkeypress="return validateNumber(event)"> </td>
+			</tr>
+            <tr> 
+            	<td> Nhập số thứ hai:</td>		
+                <td><input type = "number" id = "text-box2" value = "" onkeypress="return validateNumber(event)"> </td>
+			</tr>     	
+         	</table> 
+            <input type = "button" id = "button" value = "Calculate" onClick = "Calculate()">
+            <br>
+            <p  id = "result"></p>
+		<script language="javascript">
+        	
+            function Calculate() {
+        		if (!document.getElementById("text-box1").value || !document.getElementById("text-box2").value) 
+                	alert('Chưa nhập đủ số');
+                else {
+                	if (document.getElementById("text-box1").value == document.getElementById("text-box2").value) {
+                     document.getElementById("result").innerHTML = (parseInt(document.getElementById("text-box1").value) + parseInt(document.getElementById("text-box2").value)) * 3; 
+                    }
+                    else 
+                    document.getElementById("result").innerHTML = (parseInt(document.getElementById("text-box1").value) + parseInt(document.getElementById("text-box2").value));
+                 }
+            }
+            
+            function validateNumber(evt) {
+    			if (event.keyCode >= 48 && event.keyCode <= 57) {
+        		return true;
+    			} 
+                else 
+       				 alert('Chỉ được nhập số, nếu cố tình nhập dấu chấm sẽ không nhận giá trị sau dấu chấm');
+                     }
+    			    			
+    		
+        </script>      
+    </body>
+</html>
