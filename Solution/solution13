@@ -7,11 +7,11 @@
    		<table> 
       		<tr> 
             	<td> Nhập số thứ nhất:</td>		
-                <td><input type = "number" id = "text-box1" value = "" onkeypress="return validateNumber(event)"> </td>
+                <td><input type = "number" id = "text-box1" value = "" onkeypress="return validateNumber(event)"/> </td>
 			</tr>
             <tr> 
             	<td> Nhập số thứ hai:</td>		
-                <td><input type = "number" id = "text-box2" value = "" onkeypress="return validateNumber(event)"> </td>
+                <td><input type = "number" id = "text-box2" value = "" onkeypress="return validateNumber(event)"/> </td>
 			</tr>     	
          	</table> 
             <input type = "button" id = "button" value = "Calculate" onClick = "Calculate()">
