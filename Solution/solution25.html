@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 25</title>
+    </head>
+    <body>
+		<table>
+			<tr>
+				<td>Số thứ nhất: </td>
+				<td><input type = "text" value = "" id = "txtBox1" ></td>
+			</tr>
+			<tr>
+				<td>Số thứ hai: </td>
+				<td><input type = "text" value = "" id = "txtBox2" ></td>
+			</tr>
+			<tr>
+				<td>Số thứ ba: </td>
+				<td><input type = "text" value = "" id = "txtBox3" ></td>
+			</tr>
+		</table>
+		<br>
+		<input type = "button" onClick="checkNum()" value ="Check">
+	
+		<script language="javascript">		
+			
+			function checkNum() {
+				x = document.getElementById("txtBox1").value;
+				y = document.getElementById("txtBox2").value;
+				z = document.getElementById("txtBox3").value;
+				if (x >= 50 && x <= 99 || y >=50 && y <=99 || z >=50 && z <=99 ) 
+					document.write('true');
+				else {
+					document.write('false');
+				}
+			}
+        </script>      
+    </body>
+</html>

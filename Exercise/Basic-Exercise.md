@@ -234,6 +234,7 @@ Note
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution19.html)
 
+<a name="bai20"></a>
 ## Bài 20
 
 Viết chương trình tạo ra một chuỗi mới bằng cách thêm ký tự đầu tiên của chuỗi cũ vào cả đầu và cuối chuỗi mới
@@ -242,3 +243,63 @@ Note
 - Ý tưởng tương tự bài 19
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution20.html)
+
+## Bài 21 
+
+Viết chương trình kiểm tra một số có là bội của 3 và 7 không
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution21.html)
+
+## Bài 22
+
+Viết chương trình viết lại một chuỗi nhập vào bằng cách thêm vào trước và sau 3 ký tự cuối cùng của chuỗi ban đầu
+
+- Note
+Tương tự bài [20](#bai20)
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution22.html)
+
+## Bài 23
+
+Viết chương trình kiểm tra xem chuỗi nhập vào có bắt đầu bằng 'Java' không? Nếu có trả về `true`, nếu không trả về `false`. 
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution23.html)
+
+## Bài 24 
+
+Viết chương trình kiểm tra hai số có trong khoảng từ 50-99 không? Nếu một trong hai số thuộc thì trả về `true`, nếu không trả về `false`. 
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution24.html)
+
+## Bài 25
+
+Viết chương trình kiểm tra ba số xem có nằm trong khoảng từ 50 - 99 không? Nếu một hoặc nhiều hơn trong ba số thuộc thì trả về `true`, nếu không trả về `false`.
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution25.html) 
+
+## Bài 26
+
+Viết chương trình kiểm tra xem chuỗi nhập viết liền vào có chuỗi 'Script' (bắt đầu từ vị trí thứ 5 - index 4) hay không?. Nếu có 'Script' nằm ở vị trí như trên thì trả lại chuỗi không có chuỗi 'Script'. Nếu không thỏa mãn điều kiện trên thì giữa nguyên chuỗi.
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution26.html) 
+
+## Bài 27
+
+Viết chương trình tìm số lớn nhất trong 3 số nguyên
+
+Note
+- Hàm `Math.max()` tìm giá trị lớn nhất 
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution27.html) 
+
+## Bài 28
+
+Viết chương trình để tìm số có giá trị gần với 100 nhất từ hai số nhập vào
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution28.html) 
+
+## Bài 29
+
+Viết chương trình kiểm tra xem hai số có nằm trong khoảng từ 40-60 hoặc từ 70-100 không. Nếu có trả về `true`, nếu không trả về `false`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution29.html) 

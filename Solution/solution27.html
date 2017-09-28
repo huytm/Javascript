@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 27</title>
+    </head>
+    <body>
+		<table>
+			<tr>
+				<td>Số thứ nhất: </td>
+				<td><input type = "text" value = "" id = "txtBox1" ></td>
+			</tr>
+			<tr>
+				<td>Số thứ hai: </td>
+				<td><input type = "text" value = "" id = "txtBox2" ></td>
+			</tr>
+			<tr>
+				<td>Số thứ ba: </td>
+				<td><input type = "text" value = "" id = "txtBox3" ></td>
+			</tr>
+		</table>
+		<br>
+		<input type = "button" onClick="checkNum()" value ="Check">
+		<br>
+		<div id="result"></div>
+	
+		<script language="javascript">		
+			
+			function checkNum() {
+				x = document.getElementById("txtBox1").value;
+				y = document.getElementById("txtBox2").value;
+				z = document.getElementById("txtBox3").value;
+				document.getElementById("result").innerHTML = 'Số lớn nhất trong ba số là ' + Math.max(x,y,z);
+			}
+        </script>      
+    </body>
+</html>

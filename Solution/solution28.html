@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 28</title>
+    </head>
+    <body>
+		<table>
+			<tr>
+				<td>Số thứ nhất: </td>
+				<td><input type = "text" value = "" id = "txtBox1" ></td>
+			</tr>
+			<tr>
+				<td>Số thứ hai: </td>
+				<td><input type = "text" value = "" id = "txtBox2" ></td>
+			</tr>
+		</table>
+		<br>
+		<input type = "button" onClick="checkNearestHundred()" value ="Check">
+		<br>
+		<div id="result"></div>
+	
+		<script language="javascript">		
+			
+			function checkNearestHundred() {
+				x = document.getElementById("txtBox1").value;
+				y = document.getElementById("txtBox2").value;
+				if (100 - x <= 100 -y)
+				document.getElementById("result").innerHTML = 'Số gần 100 nhất là ' + x;
+				else 
+				document.getElementById("result").innerHTML = 'Số gần 100 nhất là ' + y;
+			}
+        </script>      
+    </body>
+</html>

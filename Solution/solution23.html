@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 23</title>
+    </head>
+    <body>
+		<script language="javascript">		
+			
+			function checkStartString(str) {
+				if (str.length < 4) 
+						alert('Chuỗi quá ngắn')
+				else {
+					if (str.substr(0 , 4) == 'Java' || str.substr(0 , 4) == 'java')
+					document.write('true');
+					else
+					document.write('false');
+				}
+			}
+			
+			checkStartString(prompt('Nhập một chuỗi'));
+        </script>      
+    </body>
+</html>

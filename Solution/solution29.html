@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 28</title>
+    </head>
+    <body>
+		<table>
+			<tr>
+				<td>Số thứ nhất: </td>
+				<td><input type = "text" value = "" id = "txtBox1" ></td>
+			</tr>
+			<tr>
+				<td>Số thứ hai: </td>
+				<td><input type = "text" value = "" id = "txtBox2" ></td>
+			</tr>
+		</table>
+		<br>
+		<input type = "button" onClick="checkNum()" value ="Check">
+		<br>
+		<div id="result"></div>
+	
+		<script language="javascript">		
+			
+			function checkNum() {
+				x = document.getElementById("txtBox1").value;
+				y = document.getElementById("txtBox2").value;
+					if ((x >=40 && x <=60 || x>=70 && x <= 100)&&(y >=40 && y <=60 || y>=70 && y <= 100 ))
+					document.getElementById("result").innerHTML = 'true';
+					else 
+					document.getElementById("result").innerHTML = 'false';
+			}	
+        </script>      
+    </body>
+</html>

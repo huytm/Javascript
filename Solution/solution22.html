@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 22</title>
+    </head>
+    <body>
+		<script language="javascript">		
+			
+			function reWriteString(str) {
+				if (str.length < 3) 
+						alert('Chuỗi quá ngắn')
+				else {
+					strToAdd = str.substr(str.length -1 , str.length);
+					document.write(strToAdd + str + strToAdd);
+				}
+			}
+			
+			reWriteString(prompt('Nhập một chuỗi'));
+        </script>      
+    </body>
+</html>
