@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 19</title>
+    </head>
+    <body>
+		<script language="javascript">		
+			
+			function reWriteString(str) 
+			{
+				if (str.length < 2) {
+						alert('chuỗi quá ngắn');
+					}
+                else {
+					midString = str.substr(1, str.length - 2);
+					document.write(str.charAt(str.length - 1) + midString + str.charAt(0));
+                    }
+			}
+			
+			reWriteString(prompt('Nhập chuỗi'));
+        </script>      
+    </body>
+</html>

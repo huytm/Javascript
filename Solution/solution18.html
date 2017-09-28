@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 18</title>
+    </head>
+    <body>
+		<script language="javascript">		
+			
+			function remove_character(str, char_pos) 
+			{
+				part1 = str.substr(0, char_pos);
+				part2 = str.substr(parseInt(char_pos) + 1, str.length);
+				document.write(part1 + part2);
+			}
+			remove_character(prompt('Nhập chuỗi'), prompt('Nhập vị trí muốn xóa'));
+        </script>      
+    </body>
+</html>

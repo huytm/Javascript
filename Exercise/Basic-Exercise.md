@@ -200,6 +200,45 @@ Viết chương trình kiểm tra số. Nếu một trong hai số bằng 50 ho�
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution15.html)
 
+## Bài 16 
 
+Viết chương trình kiểm tra hai số nhập vào. Nếu một số là âm và một số là dương thì trả kết quả là `true` !
 
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution16.html)
 
+## Bài 17
+
+Viết chương trình thêm chữ "Py" vào một chuỗi nhập vào. Nếu chuỗi đó bắt đầu bằng "Py" thì giữ nguyên chuỗi.
+
+Note
+- Hàm `substring(0,6)` để tìm 7 giá trị đầu tiên của chuỗi
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution17.html)
+
+## Bài 18
+
+Viết chương trình nhập vào một chuỗi sau đó xóa một ký tự bất kỳ ở chuỗi đó và trả về một chuỗi mới
+
+Note
+- Sử dụng hàm `substr()` chia thành hai chuỗi sau đó cộng hai chuỗi lại với nhau  
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution18.html)
+
+## Bài 19
+
+Viết chương trình đổi vị trí đầu tiên và cuối cùng của một chuỗi có từ 2 ký tự trở lên
+
+Note 
+- Tương tự ý tưởng như bài 18
+- Phương thức String `charAt(0)` lấy giá trị của ký tự đầu tiên
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution19.html)
+
+## Bài 20
+
+Viết chương trình tạo ra một chuỗi mới bằng cách thêm ký tự đầu tiên của chuỗi cũ vào cả đầu và cuối chuỗi mới
+
+Note
+- Ý tưởng tương tự bài 19
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution20.html)
