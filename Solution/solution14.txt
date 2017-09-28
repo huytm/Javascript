@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 14</title>
+    </head>
+    <body>
+            <p  id = "result"></p>
+		<script language="javascript">
+            
+            function Calculate(n) {
+        		if (n > 19) 
+                	document.getElementById("result").innerHTML = 'Số vừa nhập là ' + n + ' . Vậy kết quả là ' + (parseInt(n) - 19)*3;
+                else if (n == 19)
+                	document.getElementById("result").innerHTML = 'Số vừa nhập bằng 19'; 
+                else 
+                    document.getElementById("result").innerHTML = 'Số vừa nhập là ' + n +' nhỏ hơn 19';
+                 }
+                  
+            function validateNumber(checkNum) {
+        		switch (isNaN(checkNum)) {
+       			case false:
+                	Calculate(checkNum);
+            		break;
+                case true: 
+		 			alert('Nhập sai rồi');
+                    break
+				}
+            }
+   			
+            validateNumber(prompt('Nhập vào một số'));
+    				
+    		
+        </script>      
+    </body>
+</html>

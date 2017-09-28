@@ -182,6 +182,16 @@ else
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution13.html)
 
+## Bài 14
+
+Viết chương trình nhập vào một số và so sánh nó với số 19. Nếu lớn hơn thì trả về 3 lần hiệu của 2 số
+
+Note
+
+- Function `isNaN()` kiểm tra một giá trị có phải số không? Ví dụ `isNaN(19) = false`, `isNaN('huytm') = true`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution14.html)
+
 
 
 
