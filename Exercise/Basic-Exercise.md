@@ -194,7 +194,11 @@ Note
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution14.html)
 
+## Bài 15
 
+Viết chương trình kiểm tra số. Nếu một trong hai số bằng 50 hoặc tổng hai số bằng 50 thì trả kết quả về `true` !
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution15.html)
 
 
 

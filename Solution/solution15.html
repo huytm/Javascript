@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 15</title>
+    </head>
+    <body>
+    		<table>
+            	<tr>
+                	<td>Số thứ nhất: </td>
+            		<td><input type = "number" value = "" id = "txtBox-1" onkeypress="return validateNumber(event)"/></td>
+                </tr>
+                <tr>
+                	<td>Số thứ hai: </td>
+            		<td><input type = "number" value = "" id = "txtBox-2" onkeypress="return validateNumber(event)"/></td>
+                </tr>            		
+            </table>
+            <br>
+            <input type = "button" onClick ="Check()" value="Check"/>
+            <br>
+            <p  id = "result"></p>
+		<script language="javascript">
+            function Check(){
+           		if (document.getElementById("txtBox-1").value == 50 || document.getElementById("txtBox-2").value == 50 || (parseInt(document.getElementById("txtBox-1").value) + parseInt(document.getElementById("txtBox-2").value) == 50))
+           		document.getElementById("result").innerHTML = 'true';
+                else
+                document.getElementById("result").innerHTML = 'false';
+           }
+           
+           function validateNumber(evt) {
+    			if (event.keyCode >= 48 && event.keyCode <= 57) {
+        		return true;
+    			} 
+                else 
+       				 alert('Chỉ được nhập số, nếu cố tình nhập dấu chấm sẽ không nhận giá trị sau dấu chấm');
+                     }
+		
+    				
+    		
+        </script>      
+    </body>
+</html>
