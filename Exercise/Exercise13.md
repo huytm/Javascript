@@ -13,6 +13,6 @@ else
      alert('Chỉ được nhập số, nếu cố tình nhập dấu chấm sẽ không nhận giá trị sau dấu chấm');
     }
 ```
-- Sự kiện `onkeypress="return validateNumber(event)` sử dụng để bắt sự kiện khi bấm một phím nào đó trên bàn phím
+- Sự kiện `onkeypress="return validateNumber(event)` sử dụng để bắt sự kiện khi bấm một phím nào đó trên bàn phím [Tham khảo](https://www.w3schools.com/jsref/event_onkeypress.asp)
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution13)
