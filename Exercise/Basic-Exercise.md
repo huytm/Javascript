@@ -337,3 +337,9 @@ Viết chương trình convert 3 ký tự đầu của một chuỗi là `low ca
 Viết chương trình phân loại học sinh với điểm trung bình. Nếu < 5 thì là "Yếu", 5-7 "Trung bình", 7-8 "Khá", 9-10 "Giỏi"
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution34.html) 
+
+## Bài 35
+
+Viết chương trình tính tổng hai số nguyên dương nếu kết quả nằm trong khoảng 60-80 thì trả về "65", nếu không trả về "80"
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution35.html) 
