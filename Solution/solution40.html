@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 40</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+				function checkTwoNumber(x, y){
+				if (x < 0 || y < 0)
+					alert('Nhập sai');
+				else
+					{
+						if ( x % 7 == 0 || x % 11 ==0)
+							return x;
+						else if (y % 11 == 0 || y % 7 == 0)
+							return y;
+						else 
+							return 'Không có số nào là bội của 7 hoặc 11';
+					}
+				}
+		alert('Nhập vào hai số nguyên dương');		
+		document.getElementById("result").innerHTML = checkTwoNumber(prompt('Nhập số thứ nhất'), prompt('Nhập số thứ hai'));
+        </script>      
+    </body>
+</html>

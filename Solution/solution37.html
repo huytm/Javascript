@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 37</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+				function checkThreeNumber(x, y, z){
+					if ( x == y == z )
+						return 30;
+					if (x == y || x == z || y == z )
+                    	return 20;
+                    else
+						return 40;
+					}
+				
+		document.getElementById("result").innerHTML = checkThreeNumber(prompt('Nhập số thứ nhất'), prompt('Nhập số thứ hai'), prompt('Nhập số thứ hai'));
+        </script>      
+    </body>
+</html>

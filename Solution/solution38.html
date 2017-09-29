@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 38</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+				function checkThreeNumber(x, y, z){
+					if ( x % 10 == y % 10 || x % 10 == z % 10 || y % 10 == z % 10)
+						return true;
+					else 
+                    	return false;
+					}
+		alert('Nhập vào ba số nguyên dương');		
+		document.getElementById("result").innerHTML = checkThreeNumber(prompt('Nhập số thứ nhất'), prompt('Nhập số thứ hai'), prompt('Nhập số thứ ba'));
+        </script>      
+    </body>
+</html>

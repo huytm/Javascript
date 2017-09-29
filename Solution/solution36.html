@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 36</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+				function checkTwoInteger(x,y){
+					if ( x == 8 || y == 8 || Math.abs(x-y) == 8 )
+						return 'true';
+					else
+						return 'false';
+					}
+				
+		document.getElementById("result").innerHTML = checkTwoInteger(prompt('Nhập số thứ nhất'), prompt('Nhập số thứ hai'));
+        </script>      
+    </body>
+</html>

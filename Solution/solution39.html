@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 39</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+				function checkTwoNumber(x, y){
+					if ( Math.abs(x + y) == 15 | Math.abs(x - y) == 15)
+						return true;
+					else 
+                    	return false;
+					}
+		alert('Nhập vào hai số nguyên dương');		
+		document.getElementById("result").innerHTML = checkTwoNumber(prompt('Nhập số thứ nhất'), prompt('Nhập số thứ hai'));
+        </script>      
+    </body>
+</html>

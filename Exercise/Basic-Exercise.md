@@ -343,3 +343,35 @@ Viết chương trình phân loại học sinh với điểm trung bình. Nếu 
 Viết chương trình tính tổng hai số nguyên dương nếu kết quả nằm trong khoảng 60-80 thì trả về "65", nếu không trả về "80"
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution35.html) 
+
+## Bài 36
+
+Viết chương trình kiểm tra hai số, trả về `true` nếu một trong hai số bằng 8 hoặc hiệu hai số bằng 8.
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution36.html) 
+
+## Bài 37 
+
+Viết chương trình kiểm tra 3 số nhập vào. Nếu 3 số giống nhau thì trả về `30`. Nếu 2 số giống nhau thì trả về `20`. Nếu không thì trả về `40`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution37.html) 
+
+## Bài 38
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution38.html) 
+
+Viết chương trình kiểm tra 3 số nhập vào có hàng đơn vị giống nhau không? Trả về `true` nếu 2 hoặc 3 số đều hàng đơn vị giống nhau. Trả về `false` nếu không có số nào có hàng đơn vị giống nhau
+
+## Bài 39
+
+Viết chương trình kiểm tra 2 số nguyên dương nhập vào. Trả về `true` nếu có tổng hoặc hiệu hai số bằng `15`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution39.html) 
+
+## Bài 40
+
+Viết chương trình kiểm tra 2 số nhập vào. Trả về số bất kỳ trong hai số nếu số đó là bội của 11 hoặc 7
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution40.html) 
+
+
