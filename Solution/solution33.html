@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 33</title>
+    </head>
+    <body>	
+		<script language="javascript">
+			str = prompt('Nhập số thứ nhất');
+				if (str.length >= 3)
+					toLowCase(str);
+				else 
+					toUpCase(str);
+			
+			function toLowCase(strToUp) {
+				document.write((str.substr(0,3)).toLowerCase() + str.substr(3, str.length));
+			}
+			
+			function toUpCase(strToLow) {
+				document.write(str.toUpperCase());
+			}
+			
+        </script>      
+    </body>
+</html>

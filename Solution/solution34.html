@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 34</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+				function phanLoai(diemTb){
+					if (diemTb > 10 || diemTb <0)
+						return 'Nhập sai';
+					else
+						{
+					if (diemTb >=8 && diemTb <=10)
+						return 'Giỏi';
+					else if (diemTb >=5 && diemTb <=7)
+						return 'Trung Bình';
+					else if (diemTb >=7 && diemTb <=8)
+						return 'Khá';
+					else 
+						return 'Yếu';
+					}
+				}
+					
+				document.getElementById("result").innerHTML = phanLoai(prompt('Nhập Điểm Trung Bình'))
+        </script>      
+    </body>
+</html>

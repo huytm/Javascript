@@ -303,3 +303,37 @@ Viết chương trình để tìm số có giá trị gần với 100 nhất t�
 Viết chương trình kiểm tra xem hai số có nằm trong khoảng từ 40-60 hoặc từ 70-100 không. Nếu có trả về `true`, nếu không trả về `false`
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution29.html) 
+
+## Bài 30
+
+Viết chương trình tìm số lớn nhất trong hai số nguyên dương nhập vào trong khoảng từ 40-70
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution30.html) 
+
+## Bài 31
+
+Viết chương trình tìm ký tự thứ 2 đến thứ 4 của một chuỗi có là kí tự mình cần tìm không. Ví dụ chuỗi `Python` hoặc `HuyTm` và ký tự cần tìm là `y` thì là `true`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution31.html) 
+
+
+## Bài 32 
+
+Viết chương trình kiểm tra xem số hàng đơn vị của ba số nguyên nhập vào có giống nhau hay không?
+
+Note
+- Ba số có hàng đơn vị giống nhau đều chia cho 10 và dư giống nhau
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution32.html) 
+
+## Bài 33 
+
+Viết chương trình convert 3 ký tự đầu của một chuỗi là `low case` nếu chuỗi nhỏ hơn 3 ký tự thì chuyển cả chuỗi thành `up case`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution33.html) 
+
+## Bài 34
+
+Viết chương trình phân loại học sinh với điểm trung bình. Nếu < 5 thì là "Yếu", 5-7 "Trung bình", 7-8 "Khá", 9-10 "Giỏi"
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution34.html) 

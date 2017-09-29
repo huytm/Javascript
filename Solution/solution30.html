@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 30</title>
+    </head>
+    <body>
+		<table>
+			<tr>
+				<td>Số thứ nhất: </td>
+				<td><input type = "text" value = "" id = "txtBox1" ></td>
+			</tr>
+			<tr>
+				<td>Số thứ hai: </td>
+				<td><input type = "text" value = "" id = "txtBox2" ></td>
+			</tr>
+		</table>
+		<br>
+		<input type = "button" onClick="checkLargerNumber()" value ="Check">
+		<br>
+		<div id="result"></div>
+	
+		<script language="javascript">		
+			
+			function checkLargerNumber() {
+				x = document.getElementById("txtBox1").value;
+				y = document.getElementById("txtBox2").value;
+				if( (x < 40 || x > 70) || (y < 40 || y >70) ) 
+				alert('Số nhập nằm ngoài phạm vi');
+				else  {
+					document.getElementById("result").innerHTML = 'Số lớn hơn là ' + Math.max(x,y);
+				}
+			}
+        </script>      
+    </body>
+</html>

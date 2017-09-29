@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 35</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+				function checkSum(x,y){
+					if ( parseInt(x)+ parseInt(y) >= 60 && parseInt(x)+ parseInt(y) <=80 )
+						return 65;
+					else
+						return 80;
+					}
+				
+		document.getElementById("result").innerHTML = checkSum(prompt('Nhập số thứ nhất'), prompt('Nhập số thứ hai'))
+        </script>      
+    </body>
+</html>

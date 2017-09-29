@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 31</title>
+    </head>
+    <body>	
+		<script language="javascript">		
+			
+			function findChar(str, _char) {
+				for (var i = 0; i <= (str.substr(2,4)).length; i++)
+				{
+					if ((str.substr(2,4)).charAt(i) == _char) {
+						alert('true');
+						break;
+					}
+					else 
+						alert('false');
+                        break;
+				}
+			}
+			findChar(prompt('Nhập chuỗi viết liền bất kỳ'), prompt('Nhập ký tự cần tìm'));
+        </script>      
+    </body>
+</html>
