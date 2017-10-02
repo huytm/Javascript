@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 42</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+
+			function LetterChanges(text) {
+			var s = text.split("");
+			for (var i = 0; i < s.length; i++) {
+
+			switch(s[i]) {
+			case ' ':
+			break;
+			case 'z':
+			s[i] = 'a';
+			break;
+			case 'Z': 
+			s[i] = 'A';
+			break;
+			default:
+			s[i] = String.fromCharCode(1 + parseInt(s[i].charCodeAt(0)));
+			}
+			
+			}
+            return s.join('');
+			}
+            
+			document.write(LetterChanges("bcd"));
+        </script>      
+    </body>
+</html>

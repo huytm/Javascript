@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 43</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+
+			function capitalString(str) {
+				strToArray = str.split(" ");
+					for (i = 0; i < strToArray.length; i ++) {
+						strToArray[i] = strToArray[i][0].toUpperCase() + strToArray[i].substr(1, strToArray[i].length);
+					}
+			document.getElementById('result').innerHTML = strToArray.join(" ");		
+			
+            }
+            
+			capitalString(prompt('Nhập vào một câu'));
+        </script>      
+    </body>
+</html>

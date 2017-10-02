@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 41 - Reverse String</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+			function reverseString(str) {
+				document.getElementById('result').innerHTML =  str.split("").reverse().join("");
+			}
+			
+			reverseString(prompt('Nhập chuỗi'));
+        </script>      
+    </body>
+</html>

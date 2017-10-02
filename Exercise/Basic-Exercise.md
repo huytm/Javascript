@@ -374,4 +374,91 @@ Viết chương trình kiểm tra 2 số nhập vào. Trả về số bất kỳ
 
 [Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution40.html) 
 
+## Bài 41 
 
+Viết đảo ngược chuỗi nhập vào
+
+Note
+
+- Method `split("")` --> nhét chuỗi vừa nhập vào một mảng với mỗi giá trị phân tách nhau bởi `("")`
+- Method `reverse()` --> đảo ngược mảng 
+- Method `join("")` --> nối các phần tử của mảng thành một chuỗi mà mỗi giá trị phân tách nhau bởi `("")`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution41.html) 
+
+## Bài 42 
+
+Viết chương trình thay thế từng ký tự trong chuỗi cho trước bằng ký tự ngay sau nó trong bảng chữ cái
+
+Note 
+
+- Sử dụng [The ASCII Character Set](https://www.w3schools.com/charsets/ref_html_ascii.asp)
+- Dùng hàm `String.fromCharCode(x)` để lấy ký tự thứ x theo bảng mã trên. Ví dụ `String.fromCharCode(65);` = `A`.
+- Dùng hàm `charCodeAt(0)` để lấy số thứ tự trong bảng mã với ký tự đầu tiên của chuỗi. Ví dụ `"HelloWorld".charCodeAt(0);` kết quả = `72` tương ứng với chữ `H`, hoặc `"H".charCodeAt(0)` cũng bằng `72`.
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution42.html) 
+
+## Bài 43 
+
+Viết chương trình nhập vào một chuỗi sau đó viết hoa tất cả các chữ cái đầu tiên của một từ. Ví dụ `Have a nice day` = `Have A Nice Day`.
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution43.html) 
+
+## Bài 44 
+
+Viết chương trình nhập vào một chuỗi sau đó sắp xếp lại chuỗi đó theo bảng chữ cái
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution44.html) 
+
+## Bài 45 
+
+Viết một chương trình lặp lại chuỗi theo số lần mong muốn
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution45.html) 
+
+## Bài 46 
+
+Viết chương trình tạo ra chuỗi mới từ chuỗi nhập vào bằng cách x4 lần 3 kí tự cuối của chuỗi cũ. Chuỗi nhập vào phải > 3
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution46.html) 
+
+## Bài 47
+
+Viết chương trình lấy ra nửa đầu của một chuỗi nhập vào 
+
+Note 
+- Method `slice(a,b)` lây giá trị từ a - b trong chuỗi
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution47.html) 
+
+## Bài 48
+
+Viết chương trình nối hai chuỗi cho trước mà bỏ đi hai ký tự đầu tiên và cuối cùng của hai chuỗi.
+
+Note 
+- Hàm `substr(x,y)` lấy giá trị từ vị trí `x` đếm tiếp theo `y` ký tự. Ví dụ 
+
+```
+var str = "NguyenVietNam"
+str.substr(1,5);
+ 
+```
+
+Kết quả là lấy từ vị trí thứ nhất - chữ `g` đếm tiếp (kể từ nó là 1) 5 ký tự --> kết quả là `guyen`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution48.html) 
+
+## Bài 49
+
+Viết chương trình lấy ba ký tự giữa chuỗi (chuỗi phải là chuỗi có độ dài lẻ)
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution49.html)
+
+## Bài 50
+
+Viết chương trình kiểm tra chuỗi nhập vào trả lại tên thành phố, Ví dụ chuỗi nhập vào là `Ha` trả về `Ha Noi`
+
+Note
+- Ví dụ này trả về 3 thành phố là `HaNoi` `DaNang` `HoChiMinh`
+
+[Solution](https://github.com/huytm/Javascript/blob/master/Solution/solution50.html)

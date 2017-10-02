@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 44</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+
+			function changeString(str) {
+			var s = str.split("").sort().join("");
+            document.getElementById('result').innerHTML = s;	
+			}
+            changeString(prompt("Nhập vào một chuỗi"));
+			
+        </script>      
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 49</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+
+			function getThreeChar(str) {
+						if (str.lenght % 2 == 0 || str.length < 3)
+							alert('Nhập lại một chuỗi lẻ từ ba ký tự trở lên');
+						else
+							mid = (str.length +1 ) / 2;
+				document.getElementById('result').innerHTML = str.slice(mid - 2 , mid + 1);
+			}
+            getThreeChar(prompt("Nhập chuỗi"));
+			
+        </script>      
+    </body>
+</html>

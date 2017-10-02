@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 46</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+
+			function creatNewString(str) {
+				if (str.length < 3)
+					return alert('Chuỗi quá ngắn');
+				else 
+					{
+						strToAdd = str.substr(str.length - 3, str.length);
+						newString = str + (strToAdd.repeat(4));
+						document.getElementById('result').innerHTML = newString;
+					}
+			
+			}
+            creatNewString(prompt("Nhập vào một chuỗi"));
+			
+        </script>      
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 48</title>
+    </head>
+    <body>
+		<p id = "result"></p>
+		<script language="javascript">
+
+			function connectStr(str1, str2) {
+						newStr1 = str1.substr(1, str1.length - 2);
+						newStr2 = str2.substr(1, str2.length - 2);
+				document.getElementById('result').innerHTML = newStr1 + newStr2;
+			}
+            connectStr(prompt("Nhập chuỗi thứ nhất"), prompt("Nhập chuỗi thứ hai"));
+			
+        </script>      
+    </body>
+</html>
